@@ -1,0 +1,9 @@
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\bin\Debug\Negocio.dll
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\bin\Debug\Negocio.pdb
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\bin\Debug\Dominio.dll
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\bin\Debug\Dominio.pdb
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\obj\Debug\Negocio.csproj.Up2Date
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\obj\Debug\Negocio.dll
+E:\Curso C#\Tp final nivel 3 Maxi programa\Negocio\obj\Debug\Negocio.pdb

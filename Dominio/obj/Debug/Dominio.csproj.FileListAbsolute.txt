@@ -1,0 +1,6 @@
+E:\Curso C#\Tp final nivel 3 Maxi programa\Dominio\bin\Debug\Dominio.dll
+E:\Curso C#\Tp final nivel 3 Maxi programa\Dominio\bin\Debug\Dominio.pdb
+E:\Curso C#\Tp final nivel 3 Maxi programa\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+E:\Curso C#\Tp final nivel 3 Maxi programa\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\Curso C#\Tp final nivel 3 Maxi programa\Dominio\obj\Debug\Dominio.dll
+E:\Curso C#\Tp final nivel 3 Maxi programa\Dominio\obj\Debug\Dominio.pdb
