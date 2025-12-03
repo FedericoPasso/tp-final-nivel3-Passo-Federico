@@ -124,3 +124,5 @@ E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web co
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web come.F1FAABD0.Up2Date
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web comercio.dll
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web comercio.pdb
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Helper.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Helper.pdb

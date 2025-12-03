@@ -1,5 +1,6 @@
 ﻿using Dominio;
 using Negocio;
+using Helper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,16 +17,29 @@ namespace Web_comercio
         {
             ArticuloDatos datos = new ArticuloDatos();
             ListaArticulo = datos.listar();
-            if (!IsPostBack)
+            try
             {
-                repRepetidor.DataSource = ListaArticulo;
-                repRepetidor.DataBind();
+
+                if (!IsPostBack)
+                {
+                    
+                    repRepetidor.DataSource = ListaArticulo;
+                    repRepetidor.DataBind();
+                }
+                
+            }
+            catch (Exception ex) 
+            {
+                ManejoError error = new ManejoError();
+                Session.Add("Error", error.MensajeError(ex));
+                Response.Redirect("Error.aspx", false);
+                
             }
         }
 
-        protected void btnEjemplo_Click(object sender, EventArgs e)
+        protected void btnFavoritos_Click(object sender, EventArgs e)
         {
-            string valor = ((Button)sender).CommandArgument;
+
         }
     }
 }

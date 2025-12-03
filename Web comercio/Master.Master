@@ -23,7 +23,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <%-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/">Productos</a>
                         </li>
@@ -34,9 +34,9 @@
                             <a class="nav-link" href="Favoritos.aspx">Mi perfil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="MiPerfil.aspx">Administrar Productos</a>
+                            <a class="nav-link" href="ListaArticulos.aspx">Administrar Productos</a>
                         </li>
-                    </ul>
+                    </ul>--%>
                     <%-- <div class="d-flex">
                     <% if (!negocio.Seguridad.sesionActiva(Session["trainee"])){ %>
                             <a href="Login.aspx" class="btn btn-success me-2">Login</a>
@@ -61,7 +61,7 @@
         </nav>
         <ul class="nav justify-content-center bg-dark">
             <li class="nav-item">
-                <a class="nav-link link-light" aria-current="page" href="#">Productos</a>
+                <a class="nav-link link-light" aria-current="page" href="Default.aspx">Productos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link link-light" href="#">Favoritos</a>
@@ -70,7 +70,7 @@
                 <a class="nav-link link-light" href="#">Perfil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link link-light" href="#">Administrar productos</a>
+                <a class="nav-link link-light" href="ListaArticulos.aspx">Administrar productos</a>
             </li>
         </ul>
         <div class="container">

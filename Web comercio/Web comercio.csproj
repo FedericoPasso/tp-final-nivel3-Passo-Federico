@@ -69,7 +69,10 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="DetalleArticulo.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="FormularioArticulo.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="ListaArticulos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,8 +90,29 @@
     <Compile Include="DetalleArticulo.aspx.designer.cs">
       <DependentUpon>DetalleArticulo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioArticulo.aspx.cs">
+      <DependentUpon>FormularioArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormularioArticulo.aspx.designer.cs">
+      <DependentUpon>FormularioArticulo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ListaArticulos.aspx.cs">
+      <DependentUpon>ListaArticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaArticulos.aspx.designer.cs">
+      <DependentUpon>ListaArticulos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>
@@ -118,10 +142,17 @@
       <Project>{eb00e565-6b3b-429a-9edb-17a00a7ae4e7}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{d3540ef8-404d-4967-8dad-d26ff670d017}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Negocio\Negocio.csproj">
       <Project>{d45719e8-7155-42e5-b0bc-f77c8c61cd9d}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
