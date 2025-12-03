@@ -18,7 +18,7 @@
                 <asp:Repeater ID="repRepetidor" runat="server">
                     <ItemTemplate>
                         <div class="col">
-                            <div class="card h-100">
+                            <div class="card h-100">   <%-- #Eval inyecta las propiedades del objeto que trae el repeater en el code behind --%>
                                 <img src="<%#Eval("UrlImagen") %>" onerror="this.onerror=null; this.src = 'https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740'" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title"><%#Eval("Nombre") %></h5>
