@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\",
+  "WorkspaceRootPath": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|e:\\curso c#\\tp final nivel 3 maxi programa\\web comercio\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|solutionrelative:web comercio\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|E:\\Curso C#\\Tp final nivel 3 Maxi programa\\negocio\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|E:\\Curso C#\\Tp final nivel 3 Maxi programa\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|E:\\Curso C#\\Tp final nivel 3 Maxi programa\\web comercio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|solutionrelative:web comercio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB00E565-6B3B-429A-9EDB-17A00A7AE4E7}|Dominio\\Dominio.csproj|E:\\Curso C#\\Tp final nivel 3 Maxi programa\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB00E565-6B3B-429A-9EDB-17A00A7AE4E7}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|E:\\Curso C#\\Tp final nivel 3 Maxi programa\\web comercio\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\web comercio\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|solutionrelative:web comercio\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|E:\\Curso C#\\Tp final nivel 3 Maxi programa\\web comercio\\master.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|e:\\curso c#\\tp-final-nivel3-passo-federico\\tp final nivel 3 maxi programa\\web comercio\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|solutionrelative:web comercio\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\negocio\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45719E8-7155-42E5-B0BC-F77C8C61CD9D}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\web comercio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|solutionrelative:web comercio\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB00E565-6B3B-429A-9EDB-17A00A7AE4E7}|Dominio\\Dominio.csproj|E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB00E565-6B3B-429A-9EDB-17A00A7AE4E7}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\web comercio\\master.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{275AC6EA-054E-4001-99A9-A02CC203CC07}|Web comercio\\Web comercio.csproj|solutionrelative:web comercio\\master.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,11 +46,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Default.aspx",
-              "DocumentMoniker": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx",
+              "DocumentMoniker": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx",
               "RelativeDocumentMoniker": "Web comercio\\Default.aspx",
-              "ToolTip": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx",
+              "ToolTip": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx",
               "RelativeToolTip": "Web comercio\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -59,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ArticuloDatos.cs",
-              "DocumentMoniker": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Negocio\\ArticuloDatos.cs",
+              "DocumentMoniker": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Negocio\\ArticuloDatos.cs",
               "RelativeDocumentMoniker": "Negocio\\ArticuloDatos.cs",
-              "ToolTip": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Negocio\\ArticuloDatos.cs",
+              "ToolTip": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Negocio\\ArticuloDatos.cs",
               "RelativeToolTip": "Negocio\\ArticuloDatos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,11 +71,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Default.aspx.cs",
-              "DocumentMoniker": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx.cs",
+              "DocumentMoniker": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Web comercio\\Default.aspx.cs",
-              "ToolTip": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx.cs",
+              "ToolTip": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Default.aspx.cs",
               "RelativeToolTip": "Web comercio\\Default.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -83,11 +83,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Negocio\\AccesoDatos.cs",
+              "DocumentMoniker": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
-              "ToolTip": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Negocio\\AccesoDatos.cs",
               "RelativeToolTip": "Negocio\\AccesoDatos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,11 +95,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Articulo.cs",
-              "DocumentMoniker": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Dominio\\Articulo.cs",
+              "DocumentMoniker": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Dominio\\Articulo.cs",
               "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Dominio\\Articulo.cs",
+              "ToolTip": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Dominio\\Articulo.cs",
               "RelativeToolTip": "Dominio\\Articulo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,11 +107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Master.Master",
-              "DocumentMoniker": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master",
+              "DocumentMoniker": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master",
               "RelativeDocumentMoniker": "Web comercio\\Master.Master",
-              "ToolTip": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master",
+              "ToolTip": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master",
               "RelativeToolTip": "Web comercio\\Master.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -122,9 +122,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Master.Master.cs",
-              "DocumentMoniker": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master.cs",
+              "DocumentMoniker": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master.cs",
               "RelativeDocumentMoniker": "Web comercio\\Master.Master.cs",
-              "ToolTip": "E:\\Curso C#\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master.cs",
+              "ToolTip": "E:\\Curso C#\\tp-final-nivel3-Passo-Federico\\Tp final nivel 3 Maxi programa\\Web comercio\\Master.Master.cs",
               "RelativeToolTip": "Web comercio\\Master.Master.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

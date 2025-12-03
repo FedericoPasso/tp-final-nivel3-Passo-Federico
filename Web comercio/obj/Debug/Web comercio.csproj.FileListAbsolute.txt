@@ -61,3 +61,66 @@ E:\Curso C#\Tp final nivel 3 Maxi programa\Web comercio\bin\Dominio.dll
 E:\Curso C#\Tp final nivel 3 Maxi programa\Web comercio\bin\Negocio.dll
 E:\Curso C#\Tp final nivel 3 Maxi programa\Web comercio\bin\Dominio.pdb
 E:\Curso C#\Tp final nivel 3 Maxi programa\Web comercio\bin\Negocio.pdb
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Web comercio.dll.config
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Web comercio.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Web comercio.pdb
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\csc.exe
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\csc.exe.config
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\csc.rsp
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\csi.exe
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\csi.exe.config
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\csi.rsp
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.AppContext.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Collections.Immutable.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Console.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Globalization.Calendars.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.IO.Compression.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.IO.FileSystem.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Net.Http.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Net.Sockets.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Reflection.Metadata.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.ValueTuple.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Xml.XPath.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\vbc.exe
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\vbc.exe.config
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\vbc.rsp
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\VBCSCompiler.exe
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\VBCSCompiler.exe.config
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Dominio.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Negocio.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Dominio.pdb
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Negocio.pdb
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web comercio.csproj.AssemblyReference.cache
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web comercio.csproj.CoreCompileInputs.cache
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web come.F1FAABD0.Up2Date
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web comercio.dll
+E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web comercio.pdb
