@@ -30,9 +30,7 @@
 
                                     <%if (Negocio.Seguridad.SesionActiva(Session["usuario"]))
                                         {%>
-                                            <asp:LinkButton ID="btnFavoritos" runat="server" CssClass="btn btn-primary" CommandArgument='<%#Eval("Id") %>' CommandName="ArticuloId" OnClick="btnFavoritos_Click">
-                                             <i class="bi bi-pencil-square"></i> Editar
-                                            </asp:LinkButton>
+                                             <asp:Button Text="Agregar a favoritos ❤️" CssClass="btn btn-primary" runat="server" ID="btnFavoritos" CommandArgument='<%#Eval("Id") %>' CommandName="ArticuloId" OnClick="btnFavoritos_Click1" />
                                             <div id="alerta" class="alerta" style="display: none;">Este producto ya está en tu lista de favoritos.</div>
 
                                     <% } %>

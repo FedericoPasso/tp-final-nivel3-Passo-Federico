@@ -14,41 +14,32 @@ namespace Web_comercio
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            List<Articulo> ListaArticulos = new List<Articulo>();
-            if (Request.QueryString["Id"] != null)
+            if (!IsPostBack)
             {
-                int elegido = int.Parse(Request.QueryString["Id"].ToString());
-                ArticuloDatos datos = new ArticuloDatos();
-                ListaArticulos = datos.listar();
-                Articulo seleccionado = ListaArticulos.Find(x => x.Id == elegido);
-                imgFoto.ImageUrl = seleccionado.UrlImagen.ToString();
-                if (imgFoto.ImageUrl == "") imgFoto.ImageUrl = "https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740";
-                lblCategoria.Text = "Categoría: " + seleccionado.categoria.ToString();
-                lblMarca.Text = "Marca: " + seleccionado.marca.ToString();
-                lblCodigo.Text = "Código " + seleccionado.CodArticulo;
-                LblTitulo.Text = seleccionado.Nombre;
-                LblDescripcion.Text = "Descripción: " + seleccionado.Descripcion;
-                lblPrecio.Text = "Precio: " + seleccionado.Precio.ToString("C");
+                int id = int.Parse(Request.QueryString["id"]);
+
+                ArticuloDatos negocio = new ArticuloDatos();
+                Articulo aux = negocio.listarConId(id);
+
+                if (aux != null) 
+                {
+                    txtCodigo.Text = aux.CodArticulo;
+                    txtNombre.Text = aux.Nombre;
+                    txtDescripcion.Text = aux.Descripcion;
+                    txtMarca.Text = aux.marca != null ? aux.marca.ToString() : string.Empty;
+                    txtCategoria.Text = aux.categoria != null ? aux.categoria.ToString() : string.Empty;
+                    txtPrecio.Text = aux.Precio.ToString("c");
+                    txtImagen.ImageUrl = aux.UrlImagen;
+                }
 
             }
-            else
-            {
-                Session.Add("Error", "No hay ningún articulo seleccionado");
-                Response.Redirect("Error.aspx", false);
-            }
-            
         }
 
-        protected void btnVolver_Click(object sender, EventArgs e)
+        
+
+        protected void btnAtras_Click(object sender, EventArgs e)
         {
-            if (Session["paginaAnterior"] == null) 
-            {
-                Response.Redirect("Default.aspx", false);
-            }
-            else
-            {
-                Response.Redirect(Session["paginaAnterior"].ToString(), false);
-            }
+            Response.Redirect("Default.aspx");
         }
     }
 }
