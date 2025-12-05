@@ -93,8 +93,8 @@ namespace Web_comercio
                         int idFavorito = favoritoNegocio.InsertarNuevo(fav);
                         fav.Id = idFavorito;
 
-                        //// Opcional: Cambiar el color del corazón
-                        //((Button)sender).CssClass = "btn btn-danger"; // Cambia el color del botón al rojo
+                        // Opcional: Cambiar el color del corazón
+                        ((Button)sender).CssClass = "btn btn-danger"; // Cambia el color del botón al rojo
 
                         Response.Redirect("Favoritos.aspx", false);
 
