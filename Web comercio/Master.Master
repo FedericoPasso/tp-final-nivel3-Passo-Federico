@@ -54,7 +54,7 @@
                         <a class="nav-link link-light" href="Favoritos.aspx">Favoritos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-light" href="MiPerfil.as">Perfil</a>
+                        <a class="nav-link link-light" href="MiPerfil.aspx">Perfil</a>
                     </li>
             <% }%>
 
