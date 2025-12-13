@@ -50,7 +50,7 @@ namespace Web_comercio
                 if (datos.Login(usuario))
                 {
                     Session.Add("usuario", usuario);
-                    Response.Redirect("MiPerfil.aspx");
+                    Response.Redirect("Default.aspx");
                 }
                 else
                 {

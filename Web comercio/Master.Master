@@ -14,56 +14,62 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark " data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="Default.aspx">COMPU MARKET</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">COMPU MARKET</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
-                     Cambiar tema
-                    </asp:LinkButton>                 
-                    <div class="d-flex">
-                        <% if (!Negocio.Seguridad.SesionActiva(Session["usuario"]))
-                            { %>
-                                <a href="Login.aspx" class="btn btn-outline-success me-2">Login</a>
-                                <a href="Registro.aspx" class="btn btn-outline-info me-2">Registrate</a>
-                        <% }%>
-                        <% else
-                            { %>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                            <% if (!Negocio.Seguridad.SesionActiva(Session["usuario"]))
+                               { %>
+                                    <li class="nav-item">
+                                    <a href="Login.aspx" class="btn btn-outline-success me-2">Login</a>
+                                    </li>
+                                     <li class="nav-item">
+                                    <a href="Registro.aspx" class="btn btn-outline-info me-2">Registrate</a>
+                                    </li>
+                             <% }%>
+                        
+                       
+                            <% else
+                                { %>
 
-
-                                <asp:Button Text="Salir" ID="btnSalir" CssClass="btn btn-warning" runat="server" OnClick="btnSalir_Click" />
-                                <asp:Label ID="lblUser" Text="user" CssClass="text-light m-auto me-2" runat="server" />
-                                <asp:Image ID="imgAvatar" Style="height: 40px; width: 40px; border-radius: 50%;"
-                                 runat="server" />
-                        <%} %>
-                    </div>                
+                                 <li class="nav-item">
+                                    <asp:Button Text="Salir" ID="btnSalir" CssClass="btn btn-warning" runat="server" OnClick="btnSalir_Click" />
+                                 </li>
+                                 <%--<li class="nav-item">
+                                    <asp:Label ID="lblUser" Text="user" CssClass="text-light m-auto me-2" runat="server" />
+                                 </li>--%>
+                            <%} %>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
+                                Cambiar tema
+                            </asp:LinkButton>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
+
         <ul class="nav justify-content-center bg-dark">
             <li class="nav-item">
                 <a class="nav-link link-light" aria-current="page" href="Default.aspx">Productos</a>
             </li>
             <% if (!Negocio.Seguridad.SesionActiva(Session["user"]))
                 { %>
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="Favoritos.aspx">Favoritos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="MiPerfil.aspx">Perfil</a>
-                    </li>
+            <li class="nav-item">
+                <a class="nav-link link-light" href="Favoritos.aspx">Favoritos</a>
+            </li>
             <% }%>
 
             <%if (Negocio.Seguridad.EsAdmin(Session["usuario"]))
                 {%>
 
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="ListaArticulos.aspx">Administrar productos</a>
-                    </li>
+            <li class="nav-item">
+                <a class="nav-link link-light" href="ListaArticulos.aspx">Administrar productos</a>
+            </li>
             <%} %>
         </ul>
         <div class="container">

@@ -33,15 +33,6 @@ namespace Web_comercio
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control btnTema.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnTema;
-
-        /// <summary>
         /// Control btnSalir.
         /// </summary>
         /// <remarks>
@@ -51,22 +42,13 @@ namespace Web_comercio
         protected global::System.Web.UI.WebControls.Button btnSalir;
 
         /// <summary>
-        /// Control lblUser.
+        /// Control btnTema.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUser;
-
-        /// <summary>
-        /// Control imgAvatar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgAvatar;
+        protected global::System.Web.UI.WebControls.LinkButton btnTema;
 
         /// <summary>
         /// Control ContentPlaceHolder1.
