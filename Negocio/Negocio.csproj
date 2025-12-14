@@ -55,10 +55,6 @@
       <Project>{eb00e565-6b3b-429a-9edb-17a00a7ae4e7}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Helper\Helper.csproj">
-      <Project>{d3540ef8-404d-4967-8dad-d26ff670d017}</Project>
-      <Name>Helper</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

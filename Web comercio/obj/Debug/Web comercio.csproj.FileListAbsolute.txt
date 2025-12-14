@@ -114,11 +114,9 @@ E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web co
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\VBCSCompiler.exe
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\roslyn\VBCSCompiler.exe.config
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Dominio.dll
-E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Helper.dll
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Negocio.dll
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Dominio.pdb
-E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Helper.pdb
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Negocio.pdb
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Curso C#\tp-final-nivel3-Passo-Federico\Tp final nivel 3 Maxi programa\Web comercio\obj\Debug\Web comercio.csproj.AssemblyReference.cache

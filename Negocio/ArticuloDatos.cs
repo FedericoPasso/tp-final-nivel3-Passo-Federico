@@ -23,10 +23,10 @@ namespace Negocio
 
             try
             {
-                string query = "select A.Id, A.Codigo, A.Nombre Nombre, A.Descripcion Descripcion, A.Precio, A.ImagenUrl UrlImagen, A.IdCategoria, A.IdMarca, M.Descripcion Marca, C.Descripcion Categoria  from ARTICULOS A , MARCAS M, CATEGORIAS C where A.IdMarca = M.Id and A.IdCategoria = C.Id";
+                string query = "select A.Id, A.Codigo, A.Nombre Nombre, A.Descripcion Descripcion, A.Precio, A.ImagenUrl UrlImagen, A.IdCategoria, A.IdMarca, M.Descripcion Marca, C.Descripcion Categoria  from ARTICULOS A , MARCAS M, CATEGORIAS C where A.IdMarca = M.Id and A.IdCategoria = C.Id ";
                 if (id != "")
                 {
-                    query += "";
+                    query += " and A.Id = " + id;
                 }
                 datos.setearConsulta(query);
                 datos.ejecutarLectura();

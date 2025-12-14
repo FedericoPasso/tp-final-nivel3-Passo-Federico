@@ -14,72 +14,64 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark " data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">COMPU MARKET</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                            <% if (!Negocio.Seguridad.SesionActiva(Session["usuario"]))
-                               { %>
-                                    <li class="nav-item">
-                                    <a href="Login.aspx" class="btn btn-outline-success me-2">Login</a>
-                                    </li>
-                                     <li class="nav-item">
-                                    <a href="Registro.aspx" class="btn btn-outline-info me-2">Registrate</a>
-                                    </li>
-                             <% }%>
-                        
-                       
-                            <% else
-                                { %>
 
-                                 <li class="nav-item">
-                                    <asp:Button Text="Salir" ID="btnSalir" CssClass="btn btn-warning" runat="server" OnClick="btnSalir_Click" />
-                                 </li>
-                                 <%--<li class="nav-item">
-                                    <asp:Label ID="lblUser" Text="user" CssClass="text-light m-auto me-2" runat="server" />
-                                 </li>--%>
-                            <%} %>
-                        <li class="nav-item">
-                            <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
-                                Cambiar tema
-                            </asp:LinkButton>
-                        </li>
-                    </ul>
+        <header class="navbar navbar-expand-lg bd-navbar sticky-top navbar bg-dark" data-bs-theme="dark">
+
+            <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="Landing.aspx">COMPU MARKET</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Default.aspx">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Iniciar sesión</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Registrarse</a>
+                                </li>
+                                <li class="nav-item">
+                                    <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
+                                    Cambiar tema
+                                    </asp:LinkButton>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
 
-        <ul class="nav justify-content-center bg-dark">
-            <li class="nav-item">
-                <a class="nav-link link-light" aria-current="page" href="Default.aspx">Productos</a>
-            </li>
-            <% if (!Negocio.Seguridad.SesionActiva(Session["user"]))
-                { %>
-            <li class="nav-item">
-                <a class="nav-link link-light" href="Favoritos.aspx">Favoritos</a>
-            </li>
-            <% }%>
-
-            <%if (Negocio.Seguridad.EsAdmin(Session["usuario"]))
-                {%>
-
-            <li class="nav-item">
-                <a class="nav-link link-light" href="ListaArticulos.aspx">Administrar productos</a>
-            </li>
-            <%} %>
-        </ul>
-        <div class="container">
-            <hr />
-            <div>
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-        </div>
     </form>
+    <div class="container">
+        <hr />
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
     <%-- script para cambiar entre tema claro y oscuro --%>
     <script>
         function toggleTheme() {
@@ -98,6 +90,5 @@
             if (saved) document.documentElement.setAttribute("data-bs-theme", saved);
         }
     </script>
-
 </body>
 </html>

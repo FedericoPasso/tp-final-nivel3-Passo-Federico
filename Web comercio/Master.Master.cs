@@ -13,18 +13,18 @@ namespace Web_comercio
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!(Page is Login || Page is Registro || Page is Default || Page is Error))
-            {
+            //if (!(Page is Login || Page is Registro || Page is Default || Page is Error))
+            //{
                 
-                if (!Seguridad.SesionActiva(Session["usuario"]))
-                    Response.Redirect("Login.aspx", false);
-                else
-                {
-                    Usuario user = (Usuario)Session["usuario"];
-                    //lblUser.Text = user.Email;
+            //    if (!Seguridad.SesionActiva(Session["usuario"]))
+            //        Response.Redirect("Login.aspx", false);
+            //    else
+            //    {
+            //        Usuario user = (Usuario)Session["usuario"];
+            //        //lblUser.Text = user.Email;
                     
-                }
-            }
+            //    }
+            //}
         }
 
         protected void btnSalir_Click(object sender, EventArgs e)
