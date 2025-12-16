@@ -9,8 +9,7 @@
         <div class="container">
             <h1 class="display-4 fw-bold">Bienvenido a Compu Market</h1>
             <p class="lead fw-bold" >Acá vas a encontrar todo tipo de productos relacionados con la electrónica e informática</p>
-            <a href="Default.aspx" class="btn btn-info fw-bold">Ver Productos</a>
-                       
+            <a href="Default.aspx" class="btn btn-info fw-bold">Ver Productos</a>       
         </div>
     </section>
         

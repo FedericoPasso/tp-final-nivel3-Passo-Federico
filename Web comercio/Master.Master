@@ -1,4 +1,4 @@
-﻿<%@ Master  Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Web_comercio.Master" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Web_comercio.Master" %>
 
 <!DOCTYPE html>
 
@@ -14,6 +14,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="scriptManager"></asp:ScriptManager>
 
         <header class="navbar navbar-expand-lg bd-navbar sticky-top navbar bg-dark" data-bs-theme="dark">
 
@@ -61,14 +62,14 @@
             </nav>
         </header>
 
-    </form>
-    <div class="container">
-        
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div class="container">
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
-    </div>
+    </form>
     <%-- script para cambiar entre tema claro y oscuro --%>
     <script>
         function toggleTheme() {

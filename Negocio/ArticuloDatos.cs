@@ -43,12 +43,12 @@ namespace Negocio
                     aux.Precio = Math.Floor((decimal)datos.Lector["Precio"] * 100) / 100;
 
                     aux.categoria = new Categoria();
-                    aux.categoria.id = (int)datos.Lector["IdCategoria"];
-                    aux.categoria.descripcion = (string)datos.Lector["Categoria"];
+                    aux.categoria.Id = (int)datos.Lector["IdCategoria"];
+                    aux.categoria.Descripcion = (string)datos.Lector["Categoria"];
                     
                     aux.marca = new Marca();
-                    aux.marca.id = (int)datos.Lector["IdMarca"];
-                    aux.marca.descripcion = (string)datos.Lector["Marca"];
+                    aux.marca.Id = (int)datos.Lector["IdMarca"];
+                    aux.marca.Descripcion = (string)datos.Lector["Marca"];
                    
                     lista.Add(aux);
 
@@ -88,8 +88,8 @@ namespace Negocio
                     aux.Nombre = datos.Lector["Nombre"].ToString();
                     aux.Descripcion = datos.Lector["Descripcion"].ToString();
                     aux.UrlImagen = datos.Lector["ImagenUrl"].ToString();
-                    aux.marca.descripcion = datos.Lector["Marca"].ToString();
-                    aux.categoria.descripcion = datos.Lector["Categoria"].ToString();
+                    aux.marca.Descripcion = datos.Lector["Marca"].ToString();
+                    aux.categoria.Descripcion = datos.Lector["Categoria"].ToString();
                     aux.Precio = Math.Floor((decimal)datos.Lector["Precio"] * 100) / 100;
                 }
             }
@@ -115,8 +115,8 @@ namespace Negocio
                 datos.setearParametro("@Codigo", nuevo.CodArticulo);
                 datos.setearParametro("@Nombre", nuevo.Nombre);
                 datos.setearParametro("@Descripcion", nuevo.Descripcion);
-                datos.setearParametro("@IdMarca", nuevo.marca.id);
-                datos.setearParametro("@IdCategoria", nuevo.categoria.id);
+                datos.setearParametro("@IdMarca", nuevo.marca.Id);
+                datos.setearParametro("@IdCategoria", nuevo.categoria.Id);
                 datos.setearParametro("@ImagenUrl", nuevo.UrlImagen);
                 datos.setearParametro("@Precio", nuevo.Precio);
                 
@@ -142,8 +142,8 @@ namespace Negocio
                 datos.setearParametro("@codigo", modificado.CodArticulo);
                 datos.setearParametro("@nombre", modificado.Nombre);
                 datos.setearParametro("@descrip", modificado.Descripcion);
-                datos.setearParametro("idMarca", modificado.marca.id);
-                datos.setearParametro("@idCat", modificado.categoria.id);
+                datos.setearParametro("idMarca", modificado.marca.Id);
+                datos.setearParametro("@idCat", modificado.categoria.Id);
                 datos.setearParametro("@img", modificado.UrlImagen);
                 datos.setearParametro("@precio", modificado.Precio);
                 datos.setearParametro("@id", modificado.Id);
@@ -247,12 +247,12 @@ namespace Negocio
                     aux.Precio = Math.Floor((decimal)datos.Lector["Precio"] * 100) / 100;
 
                     aux.marca = new Marca();
-                    aux.marca.id = (int)datos.Lector["IdMarca"];
-                    aux.marca.descripcion = (string)datos.Lector["Marca"];
+                    aux.marca.Id = (int)datos.Lector["IdMarca"];
+                    aux.marca.Descripcion = (string)datos.Lector["Marca"];
 
                     aux.categoria = new Categoria();
-                    aux.categoria.id = (int)datos.Lector["IdCategoria"];
-                    aux.categoria.descripcion = (string)datos.Lector["Categoria"];
+                    aux.categoria.Id = (int)datos.Lector["IdCategoria"];
+                    aux.categoria.Descripcion = (string)datos.Lector["Categoria"];
 
 
 

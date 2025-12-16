@@ -26,15 +26,11 @@ namespace Web_comercio
         }
         void Application_Error(object sender, EventArgs e)
         {
-            //Exception exc = Server.GetLastError(); //si un error no fue manejado viene acá
-            //Session.Add("error", exc.ToString());
-            //Server.Transfer("Error.aspx");
-
-            Exception exc = Server.GetLastError();
-
+            Exception exc = Server.GetLastError(); //si un error no fue manejado viene acá
             Session.Add("error", exc.ToString());
-            //Response.Redirect("Error.aspx");
             Server.Transfer("Error.aspx");
+
+
         }
     }
 }
