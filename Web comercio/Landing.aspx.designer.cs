@@ -11,7 +11,7 @@ namespace Web_comercio
 {
 
 
-    public partial class Default
+    public partial class Landing
     {
     }
 }

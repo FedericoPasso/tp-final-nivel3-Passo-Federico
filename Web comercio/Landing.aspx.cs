@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace Web_comercio
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Landing : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnVerProductos_Click(object sender, EventArgs e)
         {
 
         }
