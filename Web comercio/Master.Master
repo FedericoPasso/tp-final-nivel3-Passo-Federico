@@ -26,7 +26,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="Default.aspx">Productos</a>
+                                <a class="btn btn-secondary me-2" aria-current="page" href="Default.aspx">Productos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Link</a>
@@ -47,10 +47,7 @@
                         <div>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">Iniciar sesión</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#">Registrarse</a>
+                                    <a class="btn btn-outline-info me-2" href="#">Ingregar</a>
                                 </li>
                                 <li class="nav-item">
                                     <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
@@ -66,7 +63,7 @@
 
     </form>
     <div class="container">
-        <hr />
+        
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
