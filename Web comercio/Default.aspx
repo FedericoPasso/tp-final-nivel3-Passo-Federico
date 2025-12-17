@@ -7,19 +7,6 @@
             height: 300px;
             object-fit: contain;
         }
-
-        .alerta {
-            padding: 10px;
-            background-color: #f44336;
-            color: white;
-            opacity: 0;
-            transition: opacity 0.6s;
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            z-index: 1000;
-            border-radius: 5px;
-        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
