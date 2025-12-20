@@ -16,7 +16,6 @@ namespace Web_comercio
         {
             if (!IsPostBack)
             {
-               
 
                 ArticuloDatos datos = new ArticuloDatos();
                 Session.Add("listaArticulo", datos.listar());

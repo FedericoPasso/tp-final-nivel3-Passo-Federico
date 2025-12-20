@@ -43,7 +43,7 @@
                 <asp:TextBox ID="txtMarca" runat="server" CssClass="form-control" Enabled="false"></asp:TextBox>
             </div>
 
-            <asp:Button ID="btnAtras" runat="server" Text="Volver" CssClass="btn btn-danger" OnClick="btnAtras_Click" />
+            <asp:Button ID="btnAtras" runat="server" Text="Volver" CssClass="btn fw-bold" Style="background-color: #00784B" data-bs-theme="dark" OnClick="btnAtras_Click" />
 
         </div>
 

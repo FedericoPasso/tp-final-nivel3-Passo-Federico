@@ -21,7 +21,7 @@
                         <div class="card-body">
                             <h5 class="card-title"><%#Eval("Nombre") %></h5>
                             <p class="card-text"><%#Eval("Descripcion") %></p>
-                            <a class="btn btn-warning" href="DetalleArticulo.aspx?id=<%#Eval("id")%>">Ver detalle</a>
+                            <a class="btn fw-bold" style="background-color: #00784B" data-bs-theme="dark" href="DetalleArticulo.aspx?id=<%#Eval("id")%>">Ver detalle</a>
                         </div>
                     </div>
                 </div>

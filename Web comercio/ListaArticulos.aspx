@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="ListaArticulos.aspx.cs" Inherits="Web_comercio.ListaArticulos" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -23,7 +24,7 @@
                 </Columns>    
 
             </asp:GridView>
-            <a href="FormularioArticulo.aspx" class="btn btn-primary">Agregar</a>
         </ContentTemplate>
     </asp:UpdatePanel>
+            <a href="FormularioArticulo.aspx" class="btn fw-bold" style="background-color: #00784B" data-bs-theme="dark">Agregar</a>
 </asp:Content>

@@ -1,7 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Web_comercio.Master" %>
 
 <!DOCTYPE html>
-
+<style>
+    /*al pasar el cursor cambia de color*/
+    .nav-link:hover {
+        color: #007bff; /* Azul */
+    }
+</style>
 <html lang="es" data-bs-theme="light">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,7 +21,7 @@
     <form id="form1" runat="server">
         <asp:ScriptManager runat="server" ID="scriptManager"></asp:ScriptManager>
 
-        <header class="navbar navbar-expand-lg bd-navbar sticky-top navbar bg-dark" data-bs-theme="dark">
+        <header class="navbar navbar-expand-lg bd-navbar sticky-top" style="background-color: #00784B" data-bs-theme="dark">
 
             <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
                 <div class="container-fluid">
@@ -27,35 +32,28 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="btn btn-secondary me-2" aria-current="page" href="Default.aspx">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link active me-2" aria-current="page" href="Default.aspx">Productos</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
+                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mi Perfil
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+                                    <li><a class="dropdown-item" href="#">Registrarse</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" href="ListaArticulos.aspx">Aministar productos</a>
+                            </li>
                         </ul>
                         <div>
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="btn btn-outline-info me-2" href="#">Ingregar</a>
-                                </li>
-                                <li class="nav-item">
-                                    <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
-                                    Cambiar tema
-                                    </asp:LinkButton>
-                                </li>
-                            </ul>
+                            <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
+                                 Cambiar tema
+                            </asp:LinkButton>
                         </div>
                     </div>
                 </div>
