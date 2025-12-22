@@ -45,11 +45,11 @@ namespace Negocio
                     aux.categoria = new Categoria();
                     aux.categoria.Id = (int)datos.Lector["IdCategoria"];
                     aux.categoria.Descripcion = (string)datos.Lector["Categoria"];
-                    
+
                     aux.marca = new Marca();
                     aux.marca.Id = (int)datos.Lector["IdMarca"];
                     aux.marca.Descripcion = (string)datos.Lector["Marca"];
-                   
+                    
                     lista.Add(aux);
 
                 }
@@ -253,9 +253,7 @@ namespace Negocio
                     aux.categoria = new Categoria();
                     aux.categoria.Id = (int)datos.Lector["IdCategoria"];
                     aux.categoria.Descripcion = (string)datos.Lector["Categoria"];
-
-
-
+                    
                     lista.Add(aux);
                 }
 

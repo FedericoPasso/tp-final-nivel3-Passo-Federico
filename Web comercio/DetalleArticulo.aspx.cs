@@ -23,8 +23,8 @@ namespace Web_comercio
                     txtCodigo.Text = aux.CodArticulo;
                     txtNombre.Text = aux.Nombre;
                     txtDescripcion.Text = aux.Descripcion;
-                    txtMarca.Text = aux.Marca != null ? aux.Marca.ToString() : string.Empty;
-                    txtCategoria.Text = aux.Categoria != null ? aux.Categoria.ToString() : string.Empty;
+                    txtMarca.Text = aux.marca != null ? aux.marca.ToString() : string.Empty;
+                    txtCategoria.Text = aux.categoria != null ? aux.categoria.ToString() : string.Empty;
                     txtPrecio.Text = aux.Precio.ToString("c");
                     txtImagen.ImageUrl = aux.UrlImagen;
                 }
