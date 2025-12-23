@@ -1,12 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Web_comercio.Master" %>
 
 <!DOCTYPE html>
-<style>
-    /*al pasar el cursor cambia de color*/
-    .nav-link:hover {
-        color: #007bff; /* Azul */
-    }
-</style>
+
 <html lang="es" data-bs-theme="light">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -34,21 +29,37 @@
                             <li class="nav-item">
                                 <a class="nav-link active me-2" aria-current="page" href="Default.aspx">Productos</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mi Perfil
+                            <%if (!Negocio.Seguridad.SesionActiva(Session["usuario"]))
+
+                                {%>
+                                 <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ingresar
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
-                                    <li><a class="dropdown-item" href="#">Registrarse</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
+                                    <li><a class="dropdown-item" href="Login.aspx">Iniciar sesión</a></li>
+                                    <li><a class="dropdown-item" href="Registro.aspx">Registrarse</a></li>
+                                    <% } %>
+                                        <%else
+                                            {%>
+                                             <li class="nav-item dropdown">
+                                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mi Perfil</a>
+                                             <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="MiPerfil.aspx">Ver perfil</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <asp:Button ID="btnCerrarSesion" runat="server" CssClass="dropdown-item" OnClick="btnCerrarSesion_Click" Text="Cerrar sesión" />
+                                                
+                                         <% } %>
+                                     </ul>
+                                  </li>
+                            <%if (Negocio.Seguridad.EsAdmin(Session["usuario"]))
+                                {%>
+
                             <li class="nav-item">
                                 <a class="nav-link active me-2" href="ListaArticulos.aspx">Aministar productos</a>
                             </li>
+                            <%} %>
                         </ul>
                         <div>
                             <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">

@@ -9,7 +9,7 @@
                 <div class="card" style="border: none; padding: 20px; border-radius: 10px; background-color: transparent;">
                     <div class="card-body">
                         <div class="row" style="display: flex; justify-content: center;">
-                            <h3 class="text-white" style="text-align: center;">Iniciar sesión</h3>
+                            <h3 class="fw-bold" style="text-align: center;">Iniciar sesión</h3>
                         </div>
                         <br />
                         <div class="row" style="display: flex;">
