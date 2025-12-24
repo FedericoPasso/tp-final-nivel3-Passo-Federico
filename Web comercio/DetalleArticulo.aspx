@@ -15,6 +15,13 @@
                 object-fit: contain;
             }
     </style>
+     <script>
+     function ImagenDefecto()
+     {
+         this.onerror=null; 
+         this.src = 'https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740';
+     }
+     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Detalles</h1>
@@ -61,7 +68,7 @@
             </div>
 
             <div class="rmb-5">
-                <asp:Image ID="txtImagen" runat="server" CssClass="img-thumbnail" />
+                <asp:Image ID="txtImagen" runat="server" onerror="this.onerror=null; this.src = 'https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740'" CssClass="logos img-thumbnail" />
             </div>
 
         </div>

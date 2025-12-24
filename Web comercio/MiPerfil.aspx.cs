@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Dominio;
+using Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +13,64 @@ namespace Web_comercio
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                if (!IsPostBack)
+                {
+                    if (Seguridad.SesionActiva(Session["usuario"]))
+                    {
+                        Usuario user = (Usuario)Session["usuario"];
+                        txtEmail.Text = user.Email;
+                        txtEmail.ReadOnly = true;
+                        txtNombre.Text = user.Nombre;
+                        txtApellido.Text = user.Apellido;
+                        if (!string.IsNullOrEmpty(user.UrlImagenPerfil))
+                            imgAvatar.ImageUrl = "~/Imagenes/perfil/" + user.UrlImagenPerfil;
 
+
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Session.Add("error", ex.ToString());
+            }
+        }
+
+        protected void btnGuardar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Page.Validate();
+                if (!Page.IsValid)
+                    return;
+
+                Usuario user = (Usuario)Session["usuario"];
+                UsuarioDatos negocio = new UsuarioDatos();
+
+                //Escribir img si se cargó algo
+                if (txtImagen.PostedFile.FileName != "")
+                {
+                    string ruta = Server.MapPath("./Imagenes/perfil/"); //capturo la ruta donde guardare las imagenes
+                    txtImagen.PostedFile.SaveAs(ruta + "perfil-" + user.Id + ".jpg"); //en la ruta guardamos la imagen seleccionada con el id
+                    user.UrlImagenPerfil = "perfil-" + user.Id + ".jpg";
+                }
+
+                user.Nombre = txtNombre.Text;
+                user.Apellido = txtApellido.Text;
+                user.Email = txtEmail.Text;
+                
+                negocio.Actualizar(user);
+                
+                Response.Redirect("MiPerfil.aspx", false);
+
+            }
+            catch (Exception ex)
+            {
+                Session.Add("error", ex.ToString());
+                Response.Redirect("Error.aspx", false);
+            }
         }
     }
 }

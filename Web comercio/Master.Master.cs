@@ -13,10 +13,9 @@ namespace Web_comercio
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!(Page is Login || Page is Registro || Page is Default1 || Page is Error))
+            if (!(Page is Login || Page is Registro || Page is Default1 || Page is Error || Page is Landing || Page is DetalleArticulo))
             {
-                //imgAvatar.ImageUrl = "https://simg.nicepng.com/png/small/202-2022264_usuario-annimo-usuario-annimo-user-icon-png-transparent.png";
-
+                
 
                 if (!Seguridad.SesionActiva(Session["usuario"]))
                     Response.Redirect("Login.aspx", false);

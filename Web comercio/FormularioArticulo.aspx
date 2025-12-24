@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="FormularioArticulo.aspx.cs" Inherits="Web_comercio.FormularioArticulo" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script>
+        function ImagenDefecto() {
+            this.onerror = null;
+            this.src = 'https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740';
+        }
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>cosas</h1>
@@ -55,26 +61,26 @@
                         <label for="txtImagenurl" class="form-label">Url imagen</label>
                         <asp:TextBox runat="server" ID="txtImagenUrl" CssClass="form-control" AutoPostBack="true" OnTextChanged="txtImagenUrl_TextChanged" />
                     </div>
-                        <asp:Image ImageUrl="https://grupoact.com.ar/wp-content/uploads/2020/04/placeholder.png" runat="server" ID="imgArticulo" Width="50%" />
+                    <asp:Image onerror="this.onerror=null; this.src = 'https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740'" class="logos" runat="server" ID="imgArticulo" Width="50%" />
                 </ContentTemplate>
             </asp:UpdatePanel>
         </div>
     </div>
-<%-- otra fila --%>
+    <%-- otra fila --%>
     <div class="row">
         <div class="col-6">
             <asp:UpdatePanel ID="UpdatePanel2" runat="server">
                 <ContentTemplate>
                     <div class="mb-3">
-                        <asp:Button Text="Eliminar" ID="btnEliminar" Onclick="btnEliminar_Click" cssclass="btn btn-danger" runat="server" />
+                        <asp:Button Text="Eliminar" ID="btnEliminar" OnClick="btnEliminar_Click" CssClass="btn btn-danger" runat="server" />
                     </div>
                     <%if (ConfirmaEliminacion)
-                      {%>
+                        {%>
                     <div class="mb-3">
                         <asp:CheckBox Text="Confirmar eliminación" ID="chkConfirmaEliminacion" runat="server" />
-                        <asp:Button Text="Eliminar" ID="btnConfirmaEliminar" OnClick="btnConfirmaEliminar_Click" cssclass="btn btn-outline-danger" runat="server" />
+                        <asp:Button Text="Eliminar" ID="btnConfirmaEliminar" OnClick="btnConfirmaEliminar_Click" CssClass="btn btn-outline-danger" runat="server" />
                     </div>
-                     <% } %>
+                    <% } %>
                 </ContentTemplate>
             </asp:UpdatePanel>
         </div>
