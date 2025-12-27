@@ -7,7 +7,8 @@
             height: 300px;
             object-fit: contain;
         }
-         .alerta {
+
+        .alerta {
             padding: 10px;
             background-color: #f44336;
             color: white;
@@ -21,19 +22,45 @@
         }
     </style>
     <script>
-        function ImagenDefecto()
-        {
-            this.onerror=null; 
+        function ImagenDefecto() {
+            this.onerror = null;
             this.src = 'https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740';
         }
+        function filtrarCards() {
+            let texto = document.getElementById("txtBuscar").value.toLowerCase();
+            let cards = document.getElementsByClassName("card");
+
+            for (let i = 0; i < cards.length; i++) {
+                let contenido = cards[i].innerText.toLowerCase();
+
+                if (contenido.includes(texto)) {
+                    cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+        }
+
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 class="fw-bold">Productos</h1>
     <hr />
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <input type="text"
+                id="txtBuscar"
+                class="form-control"
+                placeholder="Buscar producto..."
+                onkeyup="filtrarCards()" />
+        </div>
+    </div>
+
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <asp:Repeater runat="server" ID="repRepetidor">
             <ItemTemplate>
+
                 <div class="col">
                     <div class="card">
                         <img src="<%#Eval("UrlImagen") %>" onerror="this.onerror=null; this.src = 'https://img.freepik.com/vector-premium/icono-marco-fotos-foto-vacia-blanco-vector-sobre-fondo-transparente-aislado-eps-10_399089-1290.jpg?w=740'" class="logos card-img-top" alt="...">
@@ -41,7 +68,7 @@
                             <h5 class="card-title"><%#Eval("Nombre") %></h5>
                             <p class="card-text"><%#Eval("Descripcion") %></p>
                             <a class="btn fw-bold" style="background-color: #00784B" data-bs-theme="dark" href="DetalleArticulo.aspx?id=<%#Eval("id")%>">Ver detalle</a>
-                                         
+
                         </div>
                     </div>
                 </div>

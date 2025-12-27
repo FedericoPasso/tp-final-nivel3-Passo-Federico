@@ -26,6 +26,5 @@ namespace Web_comercio
         }
 
        
-        
     }
 }
