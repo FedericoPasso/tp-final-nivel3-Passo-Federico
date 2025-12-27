@@ -97,7 +97,7 @@ namespace Negocio
             try
             {
                 datos.setearConsulta("UPDATE USERS SET nombre = @nombre, apellido = @apellido, urlImagenPerfil = @imagen WHERE id = @id");
-                datos.setearParametro("@imagen", (object)user.UrlImagenPerfil ?? DBNull.Value);
+                datos.setearParametro("@imagen", (object)user.UrlImagenPerfil ?? DBNull.Value); //usando operador null-coalescing
                 datos.setearParametro("@nombre", user.Nombre);
                 datos.setearParametro("@apellido", user.Apellido);
                 datos.setearParametro("@id", user.Id);

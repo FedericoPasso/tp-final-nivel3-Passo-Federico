@@ -33,12 +33,12 @@ namespace Web_comercio
                 if (Validacion.validaTextoVacio(txtEmail) || Validacion.validaTextoVacio(txtPass))
                 {
                     Session.Add("error", "Debes completar ambos campos.");
-                    Response.Redirect("Error.aspx", false);
+                    Response.Redirect("Error.aspx");
                 }
                 usuario.Email = txtEmail.Text;
                 usuario.Pass = txtPass.Text;
 
-                if (!string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtPass.Text))
+                if (string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtPass.Text))
                 {
                     if (!string.IsNullOrEmpty(txtEmail.Text))
                     {
@@ -50,11 +50,11 @@ namespace Web_comercio
                 if (datos.Login(usuario))
                 {
                     Session.Add("usuario", usuario);
-                    Response.Redirect("MiPerfil.aspx", false);
+                    Response.Redirect("Default.aspx", false);
                 }
                 else
                 {
-                    Session["email"] = txtEmail.Text;
+                    Session["email"] = txtEmail.Text; // Guardar el email si hay un error de login
                     Session.Add("error", "Usuario o contraseña incorrectos.");
                     Response.Redirect("Error.aspx", false);
                 }
@@ -66,8 +66,8 @@ namespace Web_comercio
             }
             catch (Exception ex)
             {
-
-                Session.Add("error", ex.ToString());
+                Session["error"] = ex.Message;  
+                //Session.Add("error", ex.ToString());
                 Response.Redirect("Error.aspx", false);
             }
         }

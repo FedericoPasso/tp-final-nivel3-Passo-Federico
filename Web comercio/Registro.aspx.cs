@@ -38,7 +38,7 @@ namespace Web_comercio
                 {
                     user.Id = datos.InsertarNuevo(user);
                     Session.Add("usuario", user); //Mantiene la sesion abierta para navegar por la web
-                    Response.Redirect("Default.aspx", false);
+                    Response.Redirect("MiPerfil.aspx", false);
                 }
             }
             catch (Exception ex)

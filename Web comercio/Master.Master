@@ -20,7 +20,7 @@
 
             <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
                 <div class="container-fluid">
-                    <a class="navbar-brand fw-bold" href="Landing.aspx">COMPU MARKET</a>
+                    <a class="navbar-brand fw-bold" href="Landing.aspx">DataKaze</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

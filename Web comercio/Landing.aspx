@@ -7,7 +7,7 @@
      
     <section class="text-center py-5">
         <div class="container">
-            <h1 class="display-4 fw-bold">Bienvenido a Compu Market</h1>
+            <h1 class="display-4 fw-bold">Bienvenido a DataKaze Store</h1>
             <p class="lead fw-bold" >Acá vas a encontrar todo tipo de productos relacionados con la electrónica e informática</p>
             <a href="Default.aspx" class="btn fw-bold" style="background-color: #00784B" data-bs-theme="dark">Ver Productos</a>       
         </div>

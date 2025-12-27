@@ -19,6 +19,6 @@ namespace Dominio
         
         public Categoria categoria { get; set; }
         public Marca marca { get; set; }
-        public int Favorito { get; set; }
+        
     }
 }
