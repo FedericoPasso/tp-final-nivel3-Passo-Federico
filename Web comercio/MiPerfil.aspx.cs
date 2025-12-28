@@ -25,7 +25,7 @@ namespace Web_comercio
                         txtNombre.Text = user.Nombre;
                         txtApellido.Text = user.Apellido;
                         if (!string.IsNullOrEmpty(user.UrlImagenPerfil))
-                            imgAvatar.ImageUrl = "~/Imagenes/perfil/" + user.UrlImagenPerfil;
+                            imgAvatar.ImageUrl = "~/Imagenes/Perfil/" + user.UrlImagenPerfil;
 
 
                     }
@@ -51,10 +51,10 @@ namespace Web_comercio
 
                 //Escribir img si se cargó algo
                 if (txtImagen.PostedFile.FileName != "")
-                {
-                    string ruta = Server.MapPath("./Imagenes/perfil/"); //capturo la ruta donde guardare las imagenes
-                    txtImagen.PostedFile.SaveAs(ruta + "perfil-" + user.Id + ".jpg"); //en la ruta guardamos la imagen seleccionada con el id
-                    user.UrlImagenPerfil = "perfil-" + user.Id + ".jpg";
+                {   //para que funciones en local tiene que ser ./Imagenes/Perfil/    
+                    string ruta = Server.MapPath("~/Imagenes/Perfil/"); //capturo la ruta donde guardare las imagenes
+                    txtImagen.PostedFile.SaveAs(ruta + "Perfil-" + user.Id + ".jpg"); //en la ruta guardamos la imagen seleccionada con el id
+                    user.UrlImagenPerfil = "Perfil-" + user.Id + ".jpg";
                 }
 
                 user.Nombre = txtNombre.Text;

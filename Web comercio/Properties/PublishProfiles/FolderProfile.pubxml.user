@@ -2,7 +2,7 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\feder\OneDrive\Desktop\DataKaze store</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\feder\OneDrive\Desktop\DataKaze</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Dominio.dll">
@@ -18,10 +18,10 @@
       <publishTime>12/28/2025 13:09:40</publishTime>
     </File>
     <File Include="bin/Web comercio.dll">
-      <publishTime>12/28/2025 13:31:32</publishTime>
+      <publishTime>12/28/2025 14:08:15</publishTime>
     </File>
     <File Include="bin/Web comercio.pdb">
-      <publishTime>12/28/2025 13:31:32</publishTime>
+      <publishTime>12/28/2025 14:08:15</publishTime>
     </File>
     <File Include="Default.aspx">
       <publishTime>12/27/2025 20:46:37</publishTime>
@@ -57,7 +57,7 @@
       <publishTime>12/23/2025 17:53:19</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/28/2025 13:31:32</publishTime>
+      <publishTime>12/28/2025 14:08:15</publishTime>
     </File>
   </ItemGroup>
 </Project>
