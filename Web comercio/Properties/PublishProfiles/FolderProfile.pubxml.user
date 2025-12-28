@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\feder\OneDrive\Desktop\DataKaze store</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Dominio.dll">
+      <publishTime>12/28/2025 11:54:55</publishTime>
+    </File>
+    <File Include="bin/Dominio.pdb">
+      <publishTime>12/28/2025 11:54:55</publishTime>
+    </File>
+    <File Include="bin/Negocio.dll">
+      <publishTime>12/28/2025 13:09:40</publishTime>
+    </File>
+    <File Include="bin/Negocio.pdb">
+      <publishTime>12/28/2025 13:09:40</publishTime>
+    </File>
+    <File Include="bin/Web comercio.dll">
+      <publishTime>12/28/2025 13:31:32</publishTime>
+    </File>
+    <File Include="bin/Web comercio.pdb">
+      <publishTime>12/28/2025 13:31:32</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>12/27/2025 20:46:37</publishTime>
+    </File>
+    <File Include="DetalleArticulo.aspx">
+      <publishTime>12/24/2025 10:41:00</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>12/24/2025 11:17:27</publishTime>
+    </File>
+    <File Include="FormularioArticulo.aspx">
+      <publishTime>12/24/2025 10:43:41</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/29/2025 22:19:42</publishTime>
+    </File>
+    <File Include="Landing.aspx">
+      <publishTime>12/27/2025 18:00:27</publishTime>
+    </File>
+    <File Include="ListaArticulos.aspx">
+      <publishTime>12/22/2025 16:18:18</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>12/23/2025 17:37:26</publishTime>
+    </File>
+    <File Include="Master.Master">
+      <publishTime>12/27/2025 17:51:49</publishTime>
+    </File>
+    <File Include="MiPerfil.aspx">
+      <publishTime>12/24/2025 16:48:00</publishTime>
+    </File>
+    <File Include="Registro.aspx">
+      <publishTime>12/23/2025 17:53:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/28/2025 13:31:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

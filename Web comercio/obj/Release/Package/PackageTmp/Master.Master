@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Web_comercio.Master" %>
+
+<!DOCTYPE html>
+
+<html lang="es" data-bs-theme="light">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="scriptManager"></asp:ScriptManager>
+
+        <header class="navbar navbar-expand-lg bd-navbar sticky-top" style="background-color: #00784B" data-bs-theme="dark">
+
+            <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="Landing.aspx">DataKaze</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" aria-current="page" href="Default.aspx">Productos</a>
+                            </li>
+                            <%if (!Negocio.Seguridad.SesionActiva(Session["usuario"]))
+
+                                {%>
+                                 <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ingresar
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Login.aspx">Iniciar sesión</a></li>
+                                    <li><a class="dropdown-item" href="Registro.aspx">Registrarse</a></li>
+                                    <% } %>
+                                        <%else
+                                            {%>
+                                             <li class="nav-item dropdown">
+                                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mi Perfil</a>
+                                             <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="MiPerfil.aspx">Ver perfil</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <asp:Button ID="btnCerrarSesion" runat="server" CssClass="dropdown-item" OnClick="btnCerrarSesion_Click" Text="Cerrar sesión" />
+                                                
+                                         <% } %>
+                                     </ul>
+                                  </li>
+                            <%if (Negocio.Seguridad.EsAdmin(Session["usuario"]))
+                                {%>
+
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" href="ListaArticulos.aspx">Aministar productos</a>
+                            </li>
+                            <%} %>
+                        </ul>
+                        <div>
+                            <asp:LinkButton ID="btnTema" runat="server" CssClass="btn btn-secondary" OnClientClick="toggleTheme(); return false;">
+                                 Cambiar tema
+                            </asp:LinkButton>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+    <%-- script para cambiar entre tema claro y oscuro --%>
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const current = html.getAttribute("data-bs-theme");
+            const next = current === "light" ? "dark" : "light";
+            html.setAttribute("data-bs-theme", next);
+
+            // Guardar preferencia en localStorage
+            localStorage.setItem("theme", next);
+        }
+
+        // Al cargar la página, aplicar el tema guardado
+        window.onload = function () {
+            const saved = localStorage.getItem("theme");
+            if (saved) document.documentElement.setAttribute("data-bs-theme", saved);
+        }
+    </script>
+</body>
+</html>
