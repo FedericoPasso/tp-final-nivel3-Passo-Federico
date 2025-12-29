@@ -3,6 +3,8 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\feder\OneDrive\Desktop\DataKaze</_PublishTargetUrl>
+    <History>True|2025-12-29T13:11:59.3320070Z||;</History>
+    <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Dominio.dll">
@@ -12,16 +14,16 @@
       <publishTime>12/28/2025 11:54:55</publishTime>
     </File>
     <File Include="bin/Negocio.dll">
-      <publishTime>12/28/2025 13:09:40</publishTime>
+      <publishTime>12/29/2025 10:11:58</publishTime>
     </File>
     <File Include="bin/Negocio.pdb">
-      <publishTime>12/28/2025 13:09:40</publishTime>
+      <publishTime>12/29/2025 10:11:58</publishTime>
     </File>
     <File Include="bin/Web comercio.dll">
-      <publishTime>12/28/2025 14:08:15</publishTime>
+      <publishTime>12/29/2025 10:11:58</publishTime>
     </File>
     <File Include="bin/Web comercio.pdb">
-      <publishTime>12/28/2025 14:08:15</publishTime>
+      <publishTime>12/29/2025 10:11:58</publishTime>
     </File>
     <File Include="Default.aspx">
       <publishTime>12/27/2025 20:46:37</publishTime>
@@ -33,7 +35,7 @@
       <publishTime>12/24/2025 11:17:27</publishTime>
     </File>
     <File Include="FormularioArticulo.aspx">
-      <publishTime>12/24/2025 10:43:41</publishTime>
+      <publishTime>12/29/2025 10:09:53</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>11/29/2025 22:19:42</publishTime>
@@ -48,7 +50,7 @@
       <publishTime>12/23/2025 17:37:26</publishTime>
     </File>
     <File Include="Master.Master">
-      <publishTime>12/27/2025 17:51:49</publishTime>
+      <publishTime>12/29/2025 10:06:26</publishTime>
     </File>
     <File Include="MiPerfil.aspx">
       <publishTime>12/24/2025 16:48:00</publishTime>

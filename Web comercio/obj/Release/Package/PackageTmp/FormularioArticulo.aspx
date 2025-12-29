@@ -9,7 +9,6 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>cosas</h1>
     <hr />
     <div class="row">
         <div class="col-6">
@@ -18,7 +17,7 @@
                 <asp:TextBox runat="server" ID="txtId" CssClass="form-control" />
             </div>
             <div class="mb-3">
-                <label for="txtCodArticulo" class="form-label">Cdogido de articulo:</label>
+                <label for="txtCodArticulo" class="form-label">Codigo de articulo:</label>
                 <asp:TextBox runat="server" ID="txtCodArticulo" CssClass="form-control" />
                 <asp:RequiredFieldValidator ErrorMessage="El código es requerido." ControlToValidate="txtCodArticulo" ForeColor="DarkRed" runat="server" />
             </div>
